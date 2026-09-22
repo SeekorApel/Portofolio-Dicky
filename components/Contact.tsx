@@ -56,23 +56,23 @@ export default function Contact() {
       className="min-h-screen flex flex-col justify-center py-20 md:py-28 bg-[#050505] bg-grid-black text-white relative border-b border-zinc-800/80"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 w-full">
-        
+
         {/* Section Header with Big Editorial Headline */}
         <div className="mb-12">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-zinc-900 text-orange-400 border border-zinc-800 mb-4">
             <Mail className="w-3.5 h-3.5" />
-            Mari Berkolaborasi
+            Hubungi Saya
           </div>
           <h2 className="text-3xl sm:text-5xl md:text-5xl font-extrabold tracking-tight text-white mb-4 leading-tight">
-            Let’s start project together?
+            Mari Terhubung & Berkolaborasi
           </h2>
           <p className="text-xs sm:text-sm text-zinc-400 max-w-xl leading-relaxed">
-            Hubungi saya untuk pertanyaan arsitektur sistem, kolaborasi proyek, peluang kerja sama, atau sekadar berdiskusi seputar software engineering.
+            Terbuka untuk peluang kerja sama, diskusi proyek, atau sekadar bertukar pikiran seputar software engineering.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           {/* Kolom Kiri: Direct Info Cards & Quick Links */}
           <div className="lg:col-span-5 space-y-3.5">
             {/* WhatsApp Direct Card */}
@@ -86,11 +86,11 @@ export default function Contact() {
                 <MessageSquare className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-xs text-zinc-400 font-medium">WhatsApp Cepat</div>
+                <div className="text-xs text-zinc-400 font-medium">WhatsApp</div>
                 <div className="text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">
                   {personal.phone}
                 </div>
-                <div className="text-[11px] text-zinc-500 mt-0.5">Respon cepat dalam hitungan jam</div>
+                <div className="text-[11px] text-zinc-500 mt-0.5">Kirim pesan instan (atau Tersedia untuk obrolan santai/cepat)</div>
               </div>
             </a>
 
@@ -103,11 +103,11 @@ export default function Contact() {
                 <Mail className="w-5 h-5" />
               </div>
               <div>
-                <div className="text-xs text-zinc-400 font-medium">Email Resmi</div>
+                <div className="text-xs text-zinc-400 font-medium">Email</div>
                 <div className="text-sm font-bold text-white group-hover:text-[#ff5500] transition-colors">
                   {personal.email}
                 </div>
-                <div className="text-[11px] text-zinc-500 mt-0.5">Untuk kebutuhan bisnis & rekrutmen</div>
+                <div className="text-[11px] text-zinc-500 mt-0.5">Untuk tawaran kerja atau kerja sama profesional</div>
               </div>
             </a>
 
@@ -118,7 +118,7 @@ export default function Contact() {
                 <span>Ketersediaan Waktu</span>
               </div>
               <p className="text-xs text-zinc-400 leading-relaxed mb-4">
-                Senin – Jumat: 09:00 - 18:00 WIB. Terbuka untuk diskusi remote maupun konsultasi teknis arsitektur.
+                Senin – Jumat: 09:00 - 18:00 WIB. Siap berdiskusi untuk posisi full-time, proyek lepas, maupun konsultasi teknis.
               </p>
 
               <div className="flex items-center gap-2 pt-3.5 border-t border-zinc-800">
@@ -151,7 +151,7 @@ export default function Contact() {
                 Kirim Pesan Langsung
               </h3>
               <p className="text-xs text-zinc-400 mb-6">
-                Isi formulir di bawah ini dan saya akan segera membalas ke email Anda.
+                Tinggalkan pesan di bawah dan saya akan membalasnya sesegera mungkin.
               </p>
 
               {/* Toast Feedback Message */}
@@ -253,7 +253,7 @@ export default function Contact() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Tuliskan kebutuhan sistem, pertanyaan, atau detail proyek Anda di sini..."
+                    placeholder="Ceritakan kebutuhan proyek, pertanyaan, atau peluang kerja sama Anda di sini..."
                     className="w-full px-3.5 py-2.5 text-xs rounded-xl bg-zinc-900 border border-zinc-700/80 text-white placeholder-zinc-500 focus:outline-none focus:border-[#ff5500] focus:ring-1 focus:ring-[#ff5500] transition-colors resize-none"
                     required
                   />

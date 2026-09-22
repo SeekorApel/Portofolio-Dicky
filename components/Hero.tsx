@@ -15,7 +15,7 @@ export default function Hero() {
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 w-full py-12 md:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          
+
           {/* Kolom Kiri: Info Utama & Resume */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -74,16 +74,11 @@ export default function Hero() {
             <div className="group relative w-64 sm:w-72 md:w-80 aspect-[4/5] rounded-[2.5rem] p-2.5 bg-white border border-zinc-200/90 shadow-2xl shadow-zinc-900/10 transition-all duration-300 hover:shadow-orange-500/10 hover:border-orange-200">
               <div className="relative w-full h-full rounded-[2rem] overflow-hidden bg-zinc-100">
                 <img
-                  src="/profile.jpg"
+                  src="/profile.png"
                   alt={personal.name}
                   className="w-full h-full object-cover object-top contrast-[1.05] transition duration-500 transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
-                <div className="absolute bottom-3.5 left-3.5 right-3.5 text-center pointer-events-none">
-                  <span className="inline-block px-3.5 py-1 text-[11px] font-bold tracking-wider uppercase text-white bg-black/60 rounded-full backdrop-blur-md border border-white/20">
-                    Dicky Muzakki
-                  </span>
-                </div>
               </div>
             </div>
           </motion.div>

@@ -32,7 +32,7 @@ export default function Experience() {
   return (
     <section id="experience" className="min-h-screen flex flex-col justify-center py-20 md:py-28 bg-[#fafafa] border-b border-zinc-200/80 text-zinc-900 relative">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 w-full">
-        
+
         {/* Section Header with Filter Tabs */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-5">
           <div>
@@ -49,8 +49,8 @@ export default function Experience() {
             </h2>
             <p className="text-xs sm:text-sm text-zinc-500 mt-2 max-w-xl leading-relaxed font-normal">
               {activeTab === "experience"
-                ? "Kontribusi teknis pada platform jaminan kesehatan nasional dan sistem operasional industri berat berskala enterprise."
-                : "Latar belakang pendidikan formal dalam rekayasa perangkat lunak serta sertifikasi profesional industri."}
+                ? "Rekam jejak kontribusi dalam membangun, memelihara, dan mengoptimalkan sistem perangkat lunak berskala enterprise."
+                : "Fondasi akademis di bidang informatika yang diperkuat dengan sertifikasi teknis berstandar global."}
             </p>
           </div>
 
@@ -58,11 +58,10 @@ export default function Experience() {
           <div className="flex items-center justify-center gap-1 sm:gap-1.5 p-1 sm:p-1.5 bg-zinc-200/60 rounded-full border border-zinc-300/80 self-center md:self-end mx-auto md:mx-0 w-fit">
             <button
               onClick={() => setActiveTab("experience")}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold transition-all ${
-                activeTab === "experience"
-                  ? "bg-[#ff5500] text-white shadow-md shadow-orange-500/25"
-                  : "text-zinc-600 hover:text-zinc-950 hover:bg-zinc-200/60"
-              }`}
+              className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold transition-all ${activeTab === "experience"
+                ? "bg-[#ff5500] text-white shadow-md shadow-orange-500/25"
+                : "text-zinc-600 hover:text-zinc-950 hover:bg-zinc-200/60"
+                }`}
             >
               <Briefcase className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               <span>Pengalaman Kerja</span>
@@ -70,11 +69,10 @@ export default function Experience() {
 
             <button
               onClick={() => setActiveTab("education")}
-              className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold transition-all ${
-                activeTab === "education"
-                  ? "bg-[#ff5500] text-white shadow-md shadow-orange-500/25"
-                  : "text-zinc-600 hover:text-zinc-950 hover:bg-zinc-200/60"
-              }`}
+              className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold transition-all ${activeTab === "education"
+                ? "bg-[#ff5500] text-white shadow-md shadow-orange-500/25"
+                : "text-zinc-600 hover:text-zinc-950 hover:bg-zinc-200/60"
+                }`}
             >
               <GraduationCap className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               <span>Pendidikan</span>
@@ -84,11 +82,10 @@ export default function Experience() {
 
         {/* Dynamic Container: Lepas alami jika <= 3, scroll effect hanya jika lebih dari 3 */}
         <div
-          className={`py-2 pr-2 sm:pr-4 ${
-            isScrollable
-              ? "max-h-[600px] overflow-y-auto scroll-smooth"
-              : "overflow-visible"
-          }`}
+          className={`py-2 pr-2 sm:pr-4 ${isScrollable
+            ? "max-h-[600px] overflow-y-auto scroll-smooth"
+            : "overflow-visible"
+            }`}
           style={isScrollable ? { scrollbarWidth: "thin" } : undefined}
         >
           <AnimatePresence mode="wait">
@@ -228,13 +225,12 @@ export default function Experience() {
                           className="p-5 rounded-2xl bg-white border border-zinc-200/90 hover:border-orange-300 hover:shadow-md transition-all duration-200 shadow-xs flex items-start gap-4"
                         >
                           <div
-                            className={`w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 border ${
-                              isMikrotik
-                                ? "bg-zinc-950 text-white border-zinc-800"
-                                : isAzure
+                            className={`w-12 h-12 rounded-2xl flex items-center justify-center shrink-0 border ${isMikrotik
+                              ? "bg-zinc-950 text-white border-zinc-800"
+                              : isAzure
                                 ? "bg-[#0078D4]/10 text-[#0078D4] border-[#0078D4]/20"
                                 : "bg-amber-50 text-amber-700 border-amber-200/60"
-                            }`}
+                              }`}
                           >
                             {isMikrotik ? (
                               <SiMikrotik className="w-6 h-6" />

@@ -154,18 +154,18 @@ export default function Projects() {
       className="min-h-screen flex flex-col justify-center py-20 md:py-28 bg-white text-zinc-900 border-b border-zinc-200 relative overflow-hidden"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 w-full">
-        
+
         {/* Section Header */}
         <div className="mb-8 max-w-xl">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-orange-50 text-[#ff5500] border border-orange-200/70 mb-3">
             <FolderGit2 className="w-3.5 h-3.5" />
-            Karya & Proyek Nyata
+            Portofolio
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-950">
-            Featured Projects
+            Proyek Unggulan
           </h2>
           <p className="text-xs sm:text-sm text-zinc-500 mt-2 leading-relaxed font-normal">
-            Solusi aplikasi enterprise skala nasional di BPJS Kesehatan serta sistem otomasi manufaktur & bimbingan akademik.
+            Implementasi nyata dalam merancang dan mengembangkan solusi perangkat lunak sesuai kebutuhan operasional.
           </p>
         </div>
 
@@ -176,9 +176,8 @@ export default function Projects() {
             onClick={() => scroll("left")}
             disabled={!canScrollLeft}
             aria-label="Geser proyek ke kiri"
-            className={`hidden md:flex absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full border border-zinc-200/90 bg-white/85 text-zinc-800 hover:text-white hover:bg-[#ff5500] hover:border-[#ff5500] shadow-xl shadow-zinc-950/10 items-center justify-center transition-all duration-300 active:scale-90 cursor-pointer backdrop-blur-md opacity-0 group-hover/carousel:opacity-100 ${
-              !canScrollLeft ? "pointer-events-none !opacity-0" : ""
-            }`}
+            className={`hidden md:flex absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full border border-zinc-200/90 bg-white/85 text-zinc-800 hover:text-white hover:bg-[#ff5500] hover:border-[#ff5500] shadow-xl shadow-zinc-950/10 items-center justify-center transition-all duration-300 active:scale-90 cursor-pointer backdrop-blur-md opacity-0 group-hover/carousel:opacity-100 ${!canScrollLeft ? "pointer-events-none !opacity-0" : ""
+              }`}
           >
             <ChevronLeft className="w-6 h-6 stroke-[2.2]" />
           </button>
@@ -188,9 +187,8 @@ export default function Projects() {
             onClick={() => scroll("right")}
             disabled={!canScrollRight}
             aria-label="Geser proyek ke kanan"
-            className={`hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full border border-zinc-200/90 bg-white/85 text-zinc-800 hover:text-white hover:bg-[#ff5500] hover:border-[#ff5500] shadow-xl shadow-zinc-950/10 items-center justify-center transition-all duration-300 active:scale-90 cursor-pointer backdrop-blur-md opacity-0 group-hover/carousel:opacity-100 ${
-              !canScrollRight ? "pointer-events-none !opacity-0" : ""
-            }`}
+            className={`hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full border border-zinc-200/90 bg-white/85 text-zinc-800 hover:text-white hover:bg-[#ff5500] hover:border-[#ff5500] shadow-xl shadow-zinc-950/10 items-center justify-center transition-all duration-300 active:scale-90 cursor-pointer backdrop-blur-md opacity-0 group-hover/carousel:opacity-100 ${!canScrollRight ? "pointer-events-none !opacity-0" : ""
+              }`}
           >
             <ChevronRight className="w-6 h-6 stroke-[2.2]" />
           </button>

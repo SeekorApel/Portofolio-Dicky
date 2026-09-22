@@ -73,7 +73,7 @@ export default function Skills() {
       className="min-h-screen flex flex-col justify-center py-20 md:py-28 bg-[#09090b] bg-grid-dark text-white relative border-b border-zinc-800"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 w-full">
-        
+
         {/* Section Header */}
         <div className="mb-10 max-w-2xl">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-zinc-900 text-orange-400 border border-zinc-800 mb-3">
@@ -84,7 +84,7 @@ export default function Skills() {
             Keahlian Teknis & Ekosistem
           </h2>
           <p className="text-xs sm:text-sm text-zinc-400 mt-2 leading-relaxed">
-            Kompetensi pemrograman, arsitektur framework enterprise, manajemen basis data, dan tooling pengembangan yang saya kuasai sesuai standar industri.
+            Kombinasi bahasa pemrograman, framework, dan tools yang saya gunakan untuk membangun solusi perangkat lunak yang skalabel dan siap produksi.
           </p>
         </div>
 

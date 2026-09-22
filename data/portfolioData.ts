@@ -50,7 +50,7 @@ export const portfolioData = {
   personal: {
     name: "Dicky Muzakki",
     title: "Full Stack Developer | Software Engineer",
-    shortBio: "Software Engineer lulusan D3 Manajemen Informatika Politeknik Astra (IPK 3,66/4,00) dengan rekam jejak hands-on mengembangkan aplikasi enterprise, otomatisasi web, sistem IoT, hingga manajemen database berkinerja tinggi. Terbiasa memecahkan alur kerja operasional yang kompleks di lingkungan korporasi maupun industri manufaktur menjadi solusi perangkat lunak yang cepat, stabil, dan scalable. Siap memberikan dampak nyata dan nilai tambah langsung bagi tim engineering Anda.",
+    shortBio: "Software Engineer yang berfokus pada pengembangan aplikasi web dan integrasi sistem untuk menghasilkan perangkat lunak yang fungsional, stabil, dan sesuai kebutuhan pengguna.",
     location: "Bekasi / Jakarta, Indonesia",
     status: "Terbuka untuk Peluang Baru",
     email: "dickymuzakki06@gmail.com",

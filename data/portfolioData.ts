@@ -58,7 +58,7 @@ export const portfolioData = {
     whatsappUrl: "https://wa.me/628985276326?text=Halo%20Dicky,%20saya%20tertarik%20dengan%20profil%20portofolio%20Anda.",
     linkedinUrl: "https://www.linkedin.com/in/dickymuzakki/",
     githubUrl: "https://github.com/SeekorApel",
-    resumeUrl: "/cv-dicky-muzakki.pdf",
+    resumeUrl: "/CV_Dicky_Muzakki.pdf",
   },
 
   education: [
@@ -165,7 +165,7 @@ export const portfolioData = {
       projectType: "Enterprise Project",
       featured: true,
       period: "2025 – 2026",
-      image: "/projects/entry-production.jpg",
+      image: "/projects/smartcorpu.png",
       summary: "Platform Corporate University internal BPJS Kesehatan untuk manajemen diklat pegawai. Mengembangkan penyesuaian Change Request (CR) dan perbaikan bug pada form evaluasi, kalkulasi bantuan biaya pendidikan berbasis aturan IPK, pengiriman email laporan, serta notifikasi persetujuan pembelajaran.",
       description: "Bertanggung jawab menangani Change Request (CR) dan perbaikan bug pada siklus end-to-end. Memperbaiki penyimpanan data form evaluasi dan form esai agar input teks otomatis ter-clear saat opsi berganti. Menambahkan validasi kalkulasi bantuan biaya pendidikan SPP berdasarkan nilai IPK (100% vs 50%) dan opsi Partial Funded. Memperbaiki tampilan grafik batang dashboard yang menyusut, menambahkan validasi agar upload soal hanya menerima file Excel, memperbaiki pengiriman email laporan ke pengajar, serta menambahkan notifikasi persetujuan pembelajaran.",
       technologies: ["Angular", "PHP CodeIgniter", "SQL Server", "REST API", "GitLab"],

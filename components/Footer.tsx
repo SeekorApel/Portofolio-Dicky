@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="border-t border-zinc-900 bg-[#050505] py-12 relative text-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
-          
+
           {/* Brand & Identity */}
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-[#ff5500]" />
@@ -61,9 +61,6 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-zinc-500 font-medium">
           <div>
             © {new Date().getFullYear()} {portfolioData.personal.name}. All rights reserved.
-          </div>
-          <div>
-            Clean High-Contrast Editorial Architecture Portfolio
           </div>
         </div>
       </div>
